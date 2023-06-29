@@ -5,5 +5,6 @@ mod module2 {
 
 fn main() {
     module1::print_a_to_z();
+    println!();
     module2::submodule::print_a_to_z();
 }

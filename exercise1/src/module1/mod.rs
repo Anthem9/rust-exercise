@@ -7,10 +7,10 @@
 
 pub fn print_a_to_z() {
     for c in 'a' as u8..='z' as u8 {
-        println!("{}", c as char);
+        print!("{} ", c as char);
     }
     for c in 'A' as u8..='Z' as u8 {
-        println!("{}", c as char);
+        print!("{} ", c as char);
     }
 
 }
